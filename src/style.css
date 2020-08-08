@@ -734,12 +734,14 @@ footer {
 
 
   .todo {
-    margin: 0;
+    margin: 90px 0 0;
     font-family: "Verdana", "Tahoma", sans-serif;
     font-size: 14px;
     line-height: 20px;
     box-sizing: border-box;
     background-color: #f6f8fe;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 0.8rem;
   }
       .heading {
         margin: 0;
@@ -752,7 +754,9 @@ footer {
         text-transform: uppercase;
         color: #ffffff;
         background-color: #5c8bf0;
-      }
+        border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+  }
   
       .todo-list {
         margin: 0 0 20px;
